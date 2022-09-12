@@ -4,6 +4,7 @@ Header {
     left: 0;
     bottom: 0;
     width: 100%;
+    color: white
 }
 footer {
     background-color: rgb(5, 110, 5);
@@ -12,4 +13,5 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
+    color: white
 }
