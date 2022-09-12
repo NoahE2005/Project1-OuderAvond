@@ -3,6 +3,7 @@ Header {
     height: 100px;
     left: 0;
     bottom: 0;
+    position: fixed;
     width: 100%;
     color: white;
 }
