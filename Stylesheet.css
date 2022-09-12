@@ -6,6 +6,9 @@ Header {
     width: 100%;
     color: white;
     top: 0;
+    float: left;
+    padding:15px;
+    min-width:100%;
 }
 footer {
     background-color: rgb(5, 184, 5);
@@ -15,6 +18,9 @@ footer {
     bottom: 0;
     width: 100%;
     color: white;
+    float: left;
+    padding:15px;
+    min-width:100%;
 }
 body {
     background-color: rgb(14, 94, 14);
