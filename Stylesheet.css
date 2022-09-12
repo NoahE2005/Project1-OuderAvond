@@ -2,11 +2,11 @@ Header {
     background-color: rgb(5, 184, 5);
     height: auto;
     left: 0;
+    right: 0;
     bottom: 0;
     width: 100%;
     color: white;
     top: 0;
-    float: left;
     padding:15px;
     min-width:100%;
 }
@@ -15,10 +15,10 @@ footer {
     height: 100px;
     position: fixed;
     left: 0;
+    right: 0;
     bottom: 0;
     width: 100%;
     color: white;
-    float: left;
     padding:15px;
     min-width:100%;
 }
