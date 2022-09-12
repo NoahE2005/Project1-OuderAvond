@@ -1,11 +1,15 @@
 Header {
     background-color: green;
     height: 100px;
-    width: auto;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 footer {
     background-color: green;
     height: 100px;
-    width: auto;
-    
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
