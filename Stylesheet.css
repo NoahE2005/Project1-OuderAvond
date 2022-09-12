@@ -1,5 +1,5 @@
 Header {
-    background-color: rgb(5, 110, 5);
+    background-color: rgb(5, 184, 5);
     height: 100px;
     left: 0;
     bottom: 0;
@@ -8,11 +8,14 @@ Header {
     color: white;
 }
 footer {
-    background-color: rgb(5, 110, 5);
+    background-color: rgb(5, 184, 5);
     height: 100px;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     color: white;
+}
+body {
+    background-color: rgb(3, 103, 3);
 }
