@@ -3,3 +3,8 @@ Header {
     height: 100px;
     width: auto;
 }
+footer {
+    background-color: green;
+    height: 100px;
+    width: auto;
+}
