@@ -1,12 +1,12 @@
 Header {
-    background-color: green;
+    background-color: rgb(5, 110, 5);
     height: 100px;
     left: 0;
     bottom: 0;
     width: 100%;
 }
 footer {
-    background-color: green;
+    background-color: rgb(5, 110, 5);
     height: 100px;
     position: fixed;
     left: 0;
