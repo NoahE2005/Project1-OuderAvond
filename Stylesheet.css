@@ -48,8 +48,8 @@ img {
 }
 
 .StappenImages {
-  width: 900px;
-  height: 600px;
+  width: 960px;
+  height: 540px;
 }
 
 /* Add a black background color to the top navigation */
@@ -102,7 +102,7 @@ img {
 }
 
 .SlideShow{
-    width: auto;
+    width: 500px;
     border-style: none;
 }
 /*Animation activated by keyframes*/
