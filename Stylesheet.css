@@ -104,7 +104,8 @@ img {
 }
 
 .SlideShow{
-    width: 100%;
+    width: auto;
+    border-style: none;
 }
 /*Animation activated by keyframes*/
 @keyframes slide{
