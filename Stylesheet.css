@@ -41,6 +41,11 @@ img {
   border-width: 15px;
 }
 
+.stappenImages {
+  width: 100px;
+  hieght: 50px;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
