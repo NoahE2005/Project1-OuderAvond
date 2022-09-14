@@ -1,6 +1,6 @@
 html {
-  height: 100%;
-  box-sizing: border-box;
+  height: auto;
+  box-sizing:content-box;
 }
 Header {
     background-color: #296247;
@@ -24,12 +24,12 @@ footer {
     color: white;
     padding:15px;
     min-width:100%;
-    position:absolute;
 }
 body {
     background-color:white;
     color: black;
-text-align: center;
+    text-align: center;
+    position: relative;
   }
 img {
     background-color: white;
