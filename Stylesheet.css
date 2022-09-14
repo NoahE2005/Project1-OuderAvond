@@ -85,16 +85,14 @@ img {
 }
 
   .container{
-    width: 500px;
+    width: auto;
     position: absolute;
     transform: translate(-50%,-50%);
-    top: 50%;
     left: 50%;
     overflow: hidden;
     border: 1px solid #ffffff;
 }
 
-/*Area of images*/
 .wrapper{
     width: 100%;
     display: flex;
@@ -103,7 +101,6 @@ img {
 
 .SlideShow{
     width: 500px;
-    border-style: none;
 }
 /*Animation activated by keyframes*/
 @keyframes slide{
