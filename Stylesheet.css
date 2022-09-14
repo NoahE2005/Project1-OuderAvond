@@ -36,6 +36,12 @@ img {
  border-color: rgb(14, 94, 14)
 }
 
+.TCRImage {
+  border-style: solid;
+  border-color: white;
+  border-width: 15px;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
