@@ -1,5 +1,5 @@
 Header {
-    background-color: #a4b15c;
+    background-color: #296247;
     height: auto;
     left: 0;
     right: 0;
@@ -11,7 +11,7 @@ Header {
     min-width:100%;
 }
 footer {
-    background-color: #a4b15c;
+    background-color: #296247;
     height: 100px;
     position: fixed;
     left: 0;
@@ -67,7 +67,7 @@ img {
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: rgb(5, 184, 5);
+    background-color: #296247;
     color: white;
   }
 .topnav {
