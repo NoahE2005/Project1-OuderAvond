@@ -30,6 +30,12 @@ img {
     background-color: white;
 }
 
+.p1 {
+ border-style: solid;
+ border-radius: 6px;
+ border-color: rgb(14, 94, 14)
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
