@@ -129,6 +129,8 @@ img {
   display: table;
 }
 
+
+
 /* dit is voor eduarte en canvas*/
 .tab-wrap {
   -webkit-transition: 0.3s box-shadow ease;
@@ -211,6 +213,32 @@ img {
           transform: translateY(0px);
   text-shadow: 0 0 0;
 }
+.tab:checked:nth-of-type(6) ~ .tab__content:nth-of-type(6) {
+  opacity: 1;
+  -webkit-transition: 0.5s opacity ease-in, 0.8s -webkit-transform ease;
+  transition: 0.5s opacity ease-in, 0.8s -webkit-transform ease;
+  transition: 0.5s opacity ease-in, 0.8s transform ease;
+  transition: 0.5s opacity ease-in, 0.8s transform ease, 0.8s -webkit-transform ease;
+  position: relative;
+  top: 0;
+  z-index: 100;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+  text-shadow: 0 0 0;
+}
+.tab:checked:nth-of-type(7) ~ .tab__content:nth-of-type(7) {
+  opacity: 1;
+  -webkit-transition: 0.5s opacity ease-in, 0.8s -webkit-transform ease;
+  transition: 0.5s opacity ease-in, 0.8s -webkit-transform ease;
+  transition: 0.5s opacity ease-in, 0.8s transform ease;
+  transition: 0.5s opacity ease-in, 0.8s transform ease, 0.8s -webkit-transform ease;
+  position: relative;
+  top: 0;
+  z-index: 100;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+  text-shadow: 0 0 0;
+}
 .tab:checked:nth-of-type(8) ~ .tab__content:nth-of-type(8) {
   opacity: 1;
   -webkit-transition: 0.5s opacity ease-in, 0.8s -webkit-transform ease;
@@ -225,6 +253,19 @@ img {
   text-shadow: 0 0 0;
 }
 .tab:checked:nth-of-type(9) ~ .tab__content:nth-of-type(9) {
+  opacity: 1;
+  -webkit-transition: 0.5s opacity ease-in, 0.8s -webkit-transform ease;
+  transition: 0.5s opacity ease-in, 0.8s -webkit-transform ease;
+  transition: 0.5s opacity ease-in, 0.8s transform ease;
+  transition: 0.5s opacity ease-in, 0.8s transform ease, 0.8s -webkit-transform ease;
+  position: relative;
+  top: 0;
+  z-index: 100;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+  text-shadow: 0 0 0;
+}
+.tab:checked:nth-of-type(10) ~ .tab__content:nth-of-type(10) {
   opacity: 1;
   -webkit-transition: 0.5s opacity ease-in, 0.8s -webkit-transform ease;
   transition: 0.5s opacity ease-in, 0.8s -webkit-transform ease;
@@ -272,3 +313,5 @@ img {
           transform: translateY(-3px);
   border-radius: 6px;
 }  
+
+/* Einde aan Eduarte en Canvas */
