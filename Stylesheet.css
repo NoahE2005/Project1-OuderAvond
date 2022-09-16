@@ -104,13 +104,16 @@ img {
 }
 
 #slider figure img {
+  top: 0;
 	width: 33.333333333%;
 	height : 100%;
 	float: left;
+  left: 0;
 }
 
 .Slideshow {
-  width: 1080px;
+  width: 1080 px;
+  height: 200 px;
 }
 
 /* Two image containers (use 25% for four, and 50% for two, etc) */
