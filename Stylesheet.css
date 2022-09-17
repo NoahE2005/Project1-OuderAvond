@@ -300,5 +300,14 @@ img {
           transform: translateY(-3px);
   border-radius: 6px;
 }  
+.tab {
+  visibility: hidden;
+}
+.tab, .tab2 [type='radio'] :hover:after {
+  color: green;
+}
+.tab, .tab2 [type='radio'] :checked:after {
+  color: green;
+}
 
 /* Einde aan Eduarte en Canvas */
