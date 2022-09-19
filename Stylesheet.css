@@ -315,9 +315,7 @@ img {
 }
 
 .EduarteEnCanvas {
-  border-style: solid;
-  border-radius: 5px;
-  border-color:rgb(14, 94, 14);
+  color: black;
 }
 
 /* Einde aan Eduarte en Canvas */
