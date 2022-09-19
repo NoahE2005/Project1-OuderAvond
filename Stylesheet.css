@@ -287,6 +287,7 @@ img {
   height: 50px;
   box-sizing: border-box;
   padding: 15px;
+  top:50%;
 }
 .tab__content {
   padding: 10px 25px;
@@ -303,11 +304,13 @@ img {
 .tab {
   visibility: hidden;
 }
-.tab, .tab2 [type='radio'] :hover:after {
-  color: green;
+
+.tab-wrap input[type="radio"]:checked + label {
+  background-color: #296247;
 }
-.tab, .tab2 [type='radio'] :checked:after {
-  color: green;
+
+.tab-wrap label:hover {
+  background-color: rgb(14, 94, 14);
 }
 
 /* Einde aan Eduarte en Canvas */
