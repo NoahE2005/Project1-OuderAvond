@@ -314,4 +314,10 @@ img {
   background-color: rgb(26, 173, 26);
 }
 
+.EduarteEnCanvas {
+  border-style: solid;
+  border-radius: 5px;
+  border-color:rgb(14, 94, 14);
+}
+
 /* Einde aan Eduarte en Canvas */
