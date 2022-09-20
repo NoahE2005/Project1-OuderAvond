@@ -324,3 +324,13 @@ img {
 .opleidingen {
   color: black;
 }
+
+.LocatiegidsOpleidingen {
+  border-style: solid;
+  border-color: green;
+  border-width: 10px;
+  border-radius: 50px;
+  text-align: left;
+  margin-left: 500px;
+  margin-right: 500px;
+}
