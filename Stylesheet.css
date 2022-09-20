@@ -66,11 +66,21 @@ img {
   position: absolute;
   left: 0;
   background-color: #333;
-
   z-index: 1;
   text-align: center;
-  margin-left: 710px;
-  margin-right: 710px;
+  margin-left: 680px;
+  margin-right: 680px;
+}
+
+.subnav-content2 {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: #333;
+  z-index: 1;
+  text-align: center;
+  margin-left: 170px;
+  margin-right: 170px;
 }
 
 /* Style the subnav links */
@@ -88,6 +98,24 @@ img {
 
 /* When you move the mouse over the subnav container, open the subnav content */
 .subnav:hover .subnav-content {
+  display: block;
+}
+
+/* Style the subnav links */
+.subnav-content2 a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+/* Add a grey background color on hover */
+.subnav-content2 a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+/* When you move the mouse over the subnav container, open the subnav content */
+.subnav:hover .subnav-content2 {
   display: block;
 }
 
