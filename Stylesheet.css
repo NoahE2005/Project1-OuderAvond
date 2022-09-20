@@ -95,14 +95,14 @@ img {
 }
 
 /* Style the subnav links */
-.subnav-content, .subnav-content2, .subnav-content3 a {
+.subnav-content .subnav-content2 .subnav-content3 a {
   float: left;
   color: white;
   text-decoration: none;
 }
 
 /* Add a grey background color on hover */
-.subnav-content, .subnav-content2, .subnav-content3 a:hover {
+.subnav-content .subnav-content2 .subnav-content3 a:hover {
   background-color: #eee;
   color: black;
 }
@@ -115,6 +115,11 @@ img {
 
 /* When you move the mouse over the subnav container, open the subnav content */
 .subnav:hover .subnav-content2 {
+  display: block;
+}
+
+/* When you move the mouse over the subnav container, open the subnav content */
+.subnav:hover .subnav-content3 {
   display: block;
 }
 
