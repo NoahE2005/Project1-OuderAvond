@@ -419,3 +419,12 @@ img {
   text-align: left;
 }
 
+.footercontent {
+  background-color: white;
+}
+
+.footertext {
+  width: 50px;
+  height: 50px;
+}
+
