@@ -418,6 +418,12 @@ img {
   border-width: 10px;
   text-align: left;
 }
+.LocatiegidsOpleidingen {
+  height: 290px;
+}
+td {
+  width: 30%;
+}
 
 .footercontent {
   background-color: white;
