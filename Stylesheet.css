@@ -412,7 +412,7 @@ img {
   color: black;
 }
 
-.LocatiegidsOpleidingen, table, tr, td {
+.LocatiegidsOpleidingen, tr, td {
   border-style: solid;
   border-color: green;
   border-width: 10px;
