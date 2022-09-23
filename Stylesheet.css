@@ -443,3 +443,13 @@ td {
   border-right-width: 2px;
   border-right-color: white;
 }
+
+.examenplansection {
+  border-style: solid;
+  border-color:#296247;
+  border-width: 2px;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: left;
+  color: #296247;
+}
