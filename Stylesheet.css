@@ -467,3 +467,10 @@ td {
   text-align: left;
   color: #296247;
 }
+.examenplantalenborder {
+  border-style: solid;
+  border-color:#296247;
+  border-width: 2px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
