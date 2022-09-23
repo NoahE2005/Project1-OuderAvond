@@ -1,7 +1,15 @@
+@font-face {
+  font-family: 'TCRFont';
+  src: url('Fonts/Typographica-Blp5.ttf');
+}
+
 html {
   height: auto;
   box-sizing:content-box;
-
+  font-size:80%;
+  font:inherit;
+  font-family: TCRFont;
+  letter-spacing: 1px;
 }
 Header {
     background-color: #296247;
