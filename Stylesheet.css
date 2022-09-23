@@ -68,7 +68,7 @@ img {
   background-color: #333;
   z-index: 1;
   text-align: center;
-  margin-left: 680px;
+  margin-left: 693px;
   margin-right: 680px;
 }
 
@@ -79,8 +79,8 @@ img {
   background-color: #333;
   z-index: 1;
   text-align: center;
-  margin-left: 170px;
-  margin-right: 170px;
+  margin-left: 168px;
+  margin-right: 1800px;
 }
 
 .subnav-content3 {
@@ -90,8 +90,8 @@ img {
   background-color: #333;
   z-index: 1;
   text-align: center;
-  margin-left: 70px;
-  margin-right: 70px;
+  margin-left: 75px;
+  margin-right: 1900px;
 }
 
 /* Style the subnav links */
@@ -436,4 +436,10 @@ td {
   height: 50px;
   border-style: none;
   text-align: center;
+}
+
+.topnavborder, .subnav{
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: white;
 }
