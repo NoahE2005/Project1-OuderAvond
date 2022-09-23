@@ -10,6 +10,7 @@ html {
   font:inherit;
   font-family: TCRFont;
   letter-spacing: 1px;
+  color: #296247;
 }
 Header {
     background-color: #296247;
@@ -482,4 +483,9 @@ td {
   border-width: 2px;
   margin-left: 100px;
   margin-right: 100px;
+}
+
+.active {
+  background-color: #296247;
+  color: black;
 }
