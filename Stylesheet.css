@@ -26,13 +26,14 @@ Header {
 }
 footer {
     background-color: #296247;
-    height: 100px;
+    height: 300px;
+    margin-bottom: -400px;
     left: 0;
     right: 0;
     bottom: 0;
     width:auto;
     color: white;
-    padding:0px;
+    padding: 0px;
     min-width: auto;
     position:absolute;
 }
