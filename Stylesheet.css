@@ -472,6 +472,7 @@ td {
   border-style: solid;
   border-color:#296247;
   border-width: 2px;
+  border-spacing: 10px;
   margin-left: 100px;
   margin-right: 100px;
   text-align: left;
