@@ -32,10 +32,9 @@ footer {
     bottom: 0;
     width:auto;
     color: white;
-    padding:15px;
+    padding:0px;
     min-width: auto;
-    position: fixed;
-    z-index: -2;
+    position:absolute;
 }
 body {
     background-color:white;
