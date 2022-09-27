@@ -26,7 +26,7 @@ Header {
 }
 footer {
     background-color: #296247;
-    min-height: 300px;
+    height: 300px;
     margin-bottom: -400px;
     left: 0;
     right: 0;
@@ -463,6 +463,8 @@ td {
   border-spacing: 10px;
   margin-left: 100px;
   margin-right: 100px;
+  padding: 10px;
+  padding-left: 20px;
   text-align: left;
   color: #296247;
 }
@@ -472,9 +474,26 @@ td {
   border-width: 2px;
   margin-left: 100px;
   margin-right: 100px;
+  padding: 20px;
 }
 
 .active {
   background-color: #296247;
   color: black;
+}
+.OverOnsImage {
+  border-style: solid;
+  border-color: #296247;
+  border-width: 20px;
+  border-radius: 50px;
+  float: left;
+  margin: 50px;
+}
+.OverOnsDiv {
+  border-style: solid;
+  border-color: #296247;
+  border-width: 0px;
+  border-bottom-width: 5px;
+  margin: 50px;
+  padding: 30px;
 }
