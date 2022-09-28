@@ -428,6 +428,7 @@ body {
   border-color: green;
   border-width: 10px;
   text-align: left;
+  padding: 10px;
 }
 .LocatiegidsOpleidingen {
   height: 290px;
