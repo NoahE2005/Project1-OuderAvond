@@ -532,3 +532,7 @@ td {
 .rate > label:hover ~ input:checked ~ label {
   color: #c59b08;
 }
+
+.subnavbtn, .topnavborder{
+  color:black;
+}
