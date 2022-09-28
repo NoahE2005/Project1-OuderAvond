@@ -44,10 +44,6 @@ body {
     position: relative;
     margin: 0; padding: 0;
   }
-img {
-    background-color: white;
-}
-
 /* The subnavigation menu */
 .subnav {
   float: left;
@@ -80,8 +76,9 @@ img {
   background-color: #333;
   z-index: 1;
   text-align: center;
-  margin-left: 841px;
+  margin-left: 886px;
   margin-right: 680px;
+  position: absolute;
 }
 
 .subnav-content2 {
@@ -91,7 +88,7 @@ img {
   background-color: #333;
   z-index: 1;
   text-align: center;
-  margin-left: 168px;
+  margin-left: 196px;
   margin-right: 1800px;
 }
 
@@ -102,7 +99,7 @@ img {
   background-color: #333;
   z-index: 1;
   text-align: center;
-  margin-left: 75px;
+  margin-left: 80px;
   margin-right: 1900px;
 }
 
@@ -145,6 +142,7 @@ img {
   border-style: solid;
   border-color: white;
   border-width: 15px;
+  background-color: white;
 }
 
 .StappenImages {
