@@ -517,7 +517,6 @@ td {
 }
 .rate:not(:checked) > label:before {
   content: '★ ';
-
 }
 .rate > input:checked ~ label {
   color: #ffc700;    
