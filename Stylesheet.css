@@ -166,12 +166,16 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    transition: 0.5s;
   }
   
   /* Change the color of links on hover */
   .topnav a:hover {
     background-color: rgb(14, 94, 14);
     color: yellow;
+    transition: 0.5s;
+    padding-left: 25px;
+    padding-right: 25px;
   }
   
   /* Add a color to the active/current link */
@@ -204,7 +208,7 @@ body {
 
 #slider figure img {
   top: 0;
-	width: 33.333333333%;
+	width: 35%;
 	height : 100%;
 	float: left;
   left: 0;
@@ -212,7 +216,7 @@ body {
 
 .Slideshow {
   width: 100%;
-  height: 200 px;
+  height: 100%;
 }
 
 /* Two image containers (use 25% for four, and 50% for two, etc) */
