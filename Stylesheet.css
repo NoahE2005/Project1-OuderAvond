@@ -522,7 +522,7 @@ td {
   color:#ccc;
 }
 .rate:not(:checked) > label:before {
-  content: '☆ ';
+  content: '☆';
 }
 .rate > input:checked ~ label {
   color: #ffc700;    
@@ -541,4 +541,27 @@ td {
 
 textarea {
   resize: none;
+}
+
+.ReviewTable, .ReviewTable2 {
+  text-align: center;
+  float: center;
+  width: 100%;
+  padding: 10px;
+  border-radius: 30px;
+
+}
+.ReviewTable2 {
+  width: 50%;
+}
+.ReviewSection {
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: rgb(240, 240, 240);
+  border-width: 10px;
+  padding: 50px;
+  box-shadow: 10px 10px 8px 10px #888888, 5px 5px 8px 5px #888888 inset;
 }
