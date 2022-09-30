@@ -538,3 +538,6 @@ td {
   color: #c59b08;
 }
 
+textarea {
+  resize: none;
+}
