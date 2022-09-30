@@ -39,19 +39,37 @@
     </div>
 </nav>
 <body>
+  <section class="ReviewSection">
     <form>
+      <table class="ReviewTable">
+        <tr class="ReviewTable">
+          <td class="ReviewTable2">
     <label for="fname">voornaam:</label><br>
     <input type="text" id="fname" name="fname"><br>
+  </td>
+  <td class="ReviewTable2">
     <label for="lname">achternaam:</label><br>
     <input type="text" id="lname" name="lname"><br>
+  </td>
+  </tr>
+</table>
+<table class="ReviewTable">
+  <tr class="ReviewTable">
+    <td class="ReviewTable">
     <label for="email">Enter your email:</label><br>
     <input type="email" id="email" name="email" size="35"><br>
+  </td>
+  </tr>
+  <tr class="ReviewTable">
+    <td class="ReviewTable">
     <label for="complimenten">complimenten:</label><br>
     <textarea id="complimenten" name="complimenten" rows="4" cols="50" maxwidth="50"></textarea><br>
     <label for="klachten">klachten:</label><br>
     <textarea id="klachten" name="klachten" rows="4" cols="50"></textarea><br>
-    <input type="submit">
-    </form>
+  </td>
+  </tr>
+  <tr class="ReviewTable">
+    <td class="ReviewTable">
     <div class="rate">
       <input type="radio" id="star5" name="rate" value="5" />
       <label for="star5" title="text">5</label>
@@ -64,6 +82,17 @@
       <input type="radio" id="star1" name="rate" value="1" />
       <label for="star1" title="text">1</label>
     </div>
+  </td>
+  </tr>
+  <tr class="ReviewTable">
+    <td class="ReviewTable">
+    <input type="submit">
+  </td>
+  </tr>
+
+  </table>
+</form>
+</section>
     <br>
     <p>er moet er nu in staan: een rating</p>
 
