@@ -503,7 +503,8 @@ td {
 }
 /* voor de sterren ratting*/
 .rate {
-  float: left;
+  float: none;
+  text-align: center;
   height: 46px;
   padding: 0 10px;
 }
@@ -512,7 +513,7 @@ td {
   top:-9999px;
 }
 .rate:not(:checked) > label {
-  float:right;
+  float: none;
   width:1em;
   overflow:hidden;
   white-space:nowrap;
@@ -521,7 +522,7 @@ td {
   color:#ccc;
 }
 .rate:not(:checked) > label:before {
-  content: '★ ';
+  content: '☆ ';
 }
 .rate > input:checked ~ label {
   color: #ffc700;    
