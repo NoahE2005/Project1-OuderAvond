@@ -548,6 +548,7 @@ textarea {
   float: center;
   width: 100%;
   padding: 10px;
+  border-radius: 30px;
 
 }
 .ReviewTable2 {
@@ -562,5 +563,5 @@ textarea {
   border-color: rgb(240, 240, 240);
   border-width: 10px;
   padding: 50px;
-  box-shadow: 10px 10px 8px 10px #888888;
+  box-shadow: 10px 10px 8px 10px #888888, 5px 5px 8px 5px #888888 inset;
 }
