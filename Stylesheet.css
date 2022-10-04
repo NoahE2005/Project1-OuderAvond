@@ -419,8 +419,6 @@ body {
 
 .tab-wrap label:hover {
   background-color: rgb(26, 173, 26);
-  padding-left: 30px;
-  padding-right: 30px;
   transition: 0.8s;
 }
 
@@ -442,10 +440,12 @@ body {
   padding: 30px;
   padding-top: 0px;
 }
+
 .LocatiegidsOpleidingen {
   height: 290px;
   padding-left: 20px;
 }
+
 td {
   width: 30%;
 }
@@ -481,6 +481,7 @@ td {
   text-align: left;
   color: #296247;
 }
+
 .examenplantalenborder {
   border-style: solid;
   border-color:#296247;
@@ -494,6 +495,7 @@ td {
   background-color: #296247;
   color: black;
 }
+
 .OverOnsImage {
   border-style: solid;
   border-color: #296247;
@@ -502,6 +504,7 @@ td {
   float: left;
   margin: 50px;
 }
+
 .OverOnsDiv {
   border-style: solid;
   border-color: #296247;
@@ -510,7 +513,8 @@ td {
   margin: 50px;
   padding: 30px;
 }
-/* voor de sterren ratting*/
+
+/* voor de reviewpage*/
 .rate {
   float: none;
   text-align: center;
@@ -573,4 +577,6 @@ textarea {
   padding: 50px;
   box-shadow: 10px 10px 8px 10px #888888, 5px 5px 8px 5px #888888 inset;
 }
+
+/* Einde reviewpage*/
 
