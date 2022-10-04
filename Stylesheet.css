@@ -391,6 +391,7 @@ body {
   box-sizing: border-box;
   padding: 15px;
   top:50%;
+  transition: 0.8s;
 }
 .tab__content {
   padding: 10px 25px;
@@ -411,10 +412,16 @@ body {
 .tab-wrap input[type="radio"]:checked + label {
   background-color: #296247;
   color: white;
+  padding-left: 55px;
+  padding-right: 55px;
+  transition: 0.8s;
 }
 
 .tab-wrap label:hover {
   background-color: rgb(26, 173, 26);
+  padding-left: 30px;
+  padding-right: 30px;
+  transition: 0.8s;
 }
 
 .EduarteEnCanvas {
