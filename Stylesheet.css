@@ -535,10 +535,10 @@ td {
   color:#ccc;
 }
 .star:not(:checked) > label:before {
-  img src="Images/empty_star.svg.png" width="20px" height="20px"
+  content: '☆';
 }
 .rate > input:checked ~ label {
-  img src="Images/star_.svg.png" width="20px" height="20px"   
+  color: #ffc700;
 }
 .rate:not(:checked) > label:hover,
 .rate:not(:checked) > label:hover ~ label {
