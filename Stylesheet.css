@@ -514,8 +514,10 @@ td {
 
 /* voor de reviewpage*/
 .rate {
-  float: none;
-  text-align: center;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  float: none;  
   height: 46px;
   padding: 0 10px;
 }
@@ -532,7 +534,7 @@ td {
   font-size:30px;
   color:#ccc;
 }
-.rate:not(:checked) > label:before {
+.star:not(:checked) > label:before {
   content: '☆';
 }
 .rate > input:checked ~ label {
@@ -577,4 +579,3 @@ textarea {
 }
 
 /* Einde reviewpage*/
-
