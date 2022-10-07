@@ -416,7 +416,6 @@ body {
 .tab {
   visibility: hidden;
 }
-
 .tab-wrap input[type="radio"]:checked + label {
   background-color: #296247;
   color: white;
@@ -424,18 +423,14 @@ body {
   padding-right: 55px;
   transition: 0.8s;
 }
-
 .tab-wrap label:hover {
   background-color: rgb(26, 173, 26);
   transition: 0.8s;
 }
-
 .EduarteEnCanvas {
   color: black;
 }
-
 /* Einde aan Eduarte en Canvas */
-
 .opleidingen {
   color: black;
 }
