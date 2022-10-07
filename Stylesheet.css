@@ -589,9 +589,18 @@ textarea {
   text-align: center;
 }
 
-.VideoSpace {
+.Header2 {
   padding: 0px;
-  height: 400px;
+  height: auto;
+  width: 100%;
+  background-color: #1f4835;
+  display: flex;
+  justify-content: center;
+}
+
+.VideoSpaceUl {
+  padding: 0px;
+  height: 100%;
   width: 100%;
   background-color: #1f4835;
   display: flex;
@@ -600,16 +609,24 @@ textarea {
 }
 
 .VideoSpaceVideo {
-  width: auto;
-  height: auto;
+  width: 600px;
+  height: 500px;
   display: flex;
   justify-content: flex-start;
   margin-left: 100px;
 }
 .VideoSpaceImg {
   width: 200px;
-  height: 100%;
+  height: 50%;
   float: right;
   display: flex;
-  justify-content: flex-end;
+  align-self: center;
+  margin-right: 150px;
+  padding-right: 100px;
+  margin-top: 290px;
+}
+
+.VideoSpaceOuderavond {
+  margin-left: 100px;
+  font-size: 150px;
 }
