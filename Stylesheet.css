@@ -591,7 +591,14 @@ textarea {
 
 .VideoSpace {
   padding: 0px;
-  height: 400px;
+  height: 800px;
+  width: 100%;
+  background-color: #1f4835;
+}
+
+.VideoSpaceUl {
+  padding: 0px;
+  height: 100%;
   width: 100%;
   background-color: #1f4835;
   display: flex;
@@ -608,8 +615,10 @@ textarea {
 }
 .VideoSpaceImg {
   width: 200px;
-  height: 100%;
+  height: 50%;
   float: right;
   display: flex;
   justify-content: flex-end;
+  align-self: center;
+  margin-right: 50px;
 }
