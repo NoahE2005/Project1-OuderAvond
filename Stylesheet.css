@@ -448,19 +448,6 @@ td {
   width: 30%;
 }
 
-.footercontent {
-  border-style: none;
-  background-color: white;
-  text-align: center;
-}
-
-.footertext {
-  width: 50px;
-  height: 50px;
-  border-style: none;
-  text-align: center;
-}
-
 .topnavborder, .subnav{
   border-right-style: solid;
   border-right-width: 2px;
@@ -580,3 +567,19 @@ textarea {
 }
 
 /* Einde reviewpage*/
+
+.FooterContent {
+  border-style: none;
+  background-color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.FooterText {
+  width: 50px;
+  height: 50px;
+  border-style: solid;
+  border-width: 2px;
+  text-align: center;
+}
