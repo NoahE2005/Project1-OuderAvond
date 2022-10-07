@@ -147,6 +147,13 @@ body {
   padding: 10px;
   width: auto;
   height: 40px;
+  transition: 0.8s;
+}
+
+.TCRImage:hover {
+  border-right-width: 1000px;
+  border-left-width: auto;
+  transition: 0.8s;
 }
 
 .StappenImages {
