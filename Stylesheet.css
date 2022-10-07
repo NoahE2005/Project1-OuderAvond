@@ -609,7 +609,7 @@ textarea {
   height: auto;
   display: flex;
   justify-content: flex-start;
-  background-color: white;
+  margin-left: 100px;
 }
 .VideoSpaceImg {
   width: 200px;
