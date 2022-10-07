@@ -14,7 +14,7 @@ html {
 }
 Header {
     background-color: #296247;
-    height: 190px;
+    height: 80px;
     left: 0;
     right: 0;
     bottom: 0;
@@ -139,20 +139,14 @@ body {
 }
 
 .TCRImage {
+  float: left;
   border-style: solid;
   border-color: white;
   border-width: 15px;
   background-color: white;
   padding: 10px;
-  transition: 0.8s;
-}
-
-.TCRImage:hover {
-  border-left-width: 400px;
-  border-right-width: 400px;
-  border-top-width: 5px;
-  border-bottom-width: 5px;
-  transition: 0.8s;
+  width: auto;
+  height: 40px;
 }
 
 .StappenImages {
@@ -162,9 +156,9 @@ body {
 
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #333;
-    overflow: hidden;
-    width: 100%;
+  background-color: #333;
+  overflow: hidden;
+  width: 100%;
   }
   
   /* Style the links inside the navigation bar */
