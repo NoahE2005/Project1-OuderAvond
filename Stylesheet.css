@@ -524,6 +524,7 @@ td {
 .rate:not(:checked) > input {
   position:absolute;
   top:-9999px;
+  font-size: 40px;
 }
 .rate:not(:checked) > label {
   float: none;
@@ -531,18 +532,18 @@ td {
   overflow:hidden;
   white-space:nowrap;
   cursor:pointer;
-  font-size:30px;
+  font-size:40px;
   color:#ccc;
 }
 .star:not(:checked) > label:before {
-  content: '☆'
+  content: '&#9734'
 }
 .rate > input:checked ~ label {
-  color: #ffc700;
+  color: #ffd643;
 }
 .rate:not(:checked) > label:hover,
 .rate:not(:checked) > label:hover ~ label {
-  color: #deb217;  
+  color: #e4ba25;  
 }
 .rate > input:checked + label:hover,
 .rate > input:checked + label:hover ~ label,
