@@ -14,7 +14,7 @@ html {
 }
 Header {
     background-color: #296247;
-    height: auto;
+    height: 190px;
     left: 0;
     right: 0;
     bottom: 0;
@@ -600,18 +600,20 @@ textarea {
   background-color: #1f4835;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .VideoSpaceVideo {
-  width: 200px;
-  height: 300px;
+  width: auto;
+  height: auto;
   display: flex;
   justify-content: flex-start;
+  background-color: white;
 }
 .VideoSpaceImg {
   width: 200px;
   height: 100%;
   float: right;
   display: flex;
-  justify-content: right;
+  justify-content: flex-end;
 }
