@@ -525,13 +525,16 @@ td {
   white-space:nowrap;
   cursor:pointer;
   font-size:40px;
-  color:#ccc;
+  color:rgb(215, 215, 215);
 }
 .star:not(:checked) > label:before {
   content: '&#9734'
 }
 .rate > input:checked ~ label {
-  color: #ffd643;
+  color: gold;
+}
+#star > input:checked ~ label {
+  color: gold;
 }
 .rate:not(:checked) > label:hover,
 .rate:not(:checked) > label:hover ~ label {
@@ -542,7 +545,7 @@ td {
 .rate > input:checked ~ label:hover,
 .rate > input:checked ~ label:hover ~ label,
 .rate > label:hover ~ input:checked ~ label {
-  color: #c59b08;
+  color: #e4ba25;
 }
 
 textarea {
