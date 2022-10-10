@@ -12,21 +12,20 @@ html {
   letter-spacing: 1px;
   color: #296247;
 }
-Header {
+header {
     background-color: #296247;
-    height: auto;
+    height: 15vh;
     left: 0;
     right: 0;
     bottom: 0;
+    top: 0;
     width: auto;
     color: white;
-    top: 0;
-    padding:15px;
     min-width:auto;
 }
 footer {
     background-color: #296247;
-    height: 300px;
+    height: 300vh;
     margin-bottom: -400px;
     left: 0;
     right: 0;
