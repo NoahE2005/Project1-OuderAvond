@@ -497,8 +497,12 @@ td {
   border-color: #296247;
   border-width: 20px;
   border-radius: 50px;
-  float: left;
   margin: 50px;
+  float: left;
+  width: 40%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .OverOnsDiv {
