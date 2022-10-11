@@ -27,7 +27,7 @@ header {
 }
 footer {
     background-color: #296247;
-    height: 300vh;
+    height: 30vh;
     margin-bottom: -400px;
     left: 0;
     right: 0;
@@ -138,6 +138,7 @@ body {
  border-style: solid;
  border-radius: 6px;
  border-color: rgb(14, 94, 14);
+ width: auto;
 }
 
 .TCRImage {
@@ -147,7 +148,7 @@ body {
   border-width: 15px;
   background-color: white;
   padding: 10px;
-  width: 8vw;
+  width: auto;
   height: 4vw;
   transition: 0.8s;
 }
@@ -639,14 +640,16 @@ textarea {
   font-size: 150px;
 }
 
-@media and (max-width: ;){
-
+@media and (max-width: 576px;) {
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
-@media and (max-width: ;){
-
-}
-
-@media and (max-width: ;){
-
+@media and (max-width: 768px;) {
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
 }
