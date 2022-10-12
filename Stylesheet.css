@@ -422,13 +422,6 @@ body {
 .tab {
   visibility: hidden;
 }
-
-.TabGroupFlex {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-
 .tab-wrap input[type="radio"]:checked + label {
   background-color: #296247;
   color: white;
