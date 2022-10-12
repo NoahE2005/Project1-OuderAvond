@@ -48,7 +48,7 @@ body {
 /* The subnavigation menu */
 .subnav {
   float: left;
-  overflow: hidden;
+
   text-align: center;
   padding: 0;
   height: 3.4vw;
@@ -84,6 +84,8 @@ body {
   text-align: center;
   height: 3.4vw;
   width: 12vw;
+  margin-left: 81.5vw;
+  margin-right: 25vw;
 }
 
 .subnav-content2 {
@@ -95,6 +97,8 @@ body {
   text-align: center;
   height: 3.4vw;
   width: 12vw;
+  margin-left: 18.8vw;
+  margin-right: 85vw;
 }
 
 .subnav-content3 {
@@ -104,8 +108,8 @@ body {
   background-color: #333;
   z-index: 1;
   text-align: center;
-  margin-left: 80px;
-  margin-right: 1900px;
+  margin-left: 7.7vw;
+  margin-right: 85vw;
   height: 3.4vw;
   width: 12vw;
 }
