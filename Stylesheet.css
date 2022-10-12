@@ -569,13 +569,16 @@ textarea {
   padding: 10px;
   border-radius: 30px;
 }
-.ReviewTable2 {
-  width: 50%;
+#complimenten {
+  text-align: center;
+}
+#klachten {
+  text-align: center;
 }
 .ReviewSection {
   margin-top: 50px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 20%;
+  margin-right: 20%;
   border-radius: 10px;
   border-style: solid;
   border-color: rgb(240, 240, 240);
