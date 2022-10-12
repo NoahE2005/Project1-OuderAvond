@@ -56,6 +56,9 @@ a {
   float: left;
   overflow: hidden;
   text-align: center;
+  padding: 0;
+  height: 3.4vw;
+  width: auto;
 }
 
 /* Subnav button */
@@ -67,7 +70,6 @@ a {
   padding: 0.75vw 1.75vw;
   background-color: inherit;
   font-family: inherit;
-  margin: 0;
   letter-spacing: 0.05vw;
   position: relative;
   display: inline-block;
@@ -86,6 +88,8 @@ a {
   background-color: #333;
   z-index: 1;
   text-align: center;
+  height: 3.4vw;
+  width: 12vw;
 }
 
 .subnav-content2 {
@@ -95,6 +99,8 @@ a {
   background-color: #333;
   z-index: 1;
   text-align: center;
+  height: 3.4vw;
+  width: 12vw;
 }
 
 .subnav-content3 {
@@ -106,6 +112,8 @@ a {
   text-align: center;
   margin-left: 80px;
   margin-right: 1900px;
+  height: 3.4vw;
+  width: 12vw;
 }
 
 /* Style the subnav links */
