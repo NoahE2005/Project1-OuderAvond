@@ -145,16 +145,16 @@ body {
   float: left;
   border-style: solid;
   border-color: white;
-  border-width: 15px;
+  border-width: 1vw;
   background-color: white;
-  padding: 10px;
+  padding: 1vw;
   width: auto;
-  height: 4vw;
+  height: 3.2vw;
   transition: 0.8s;
 }
 
 .TCRImage:hover {
-  border-right-width: 1000px;
+  border-right-width: 87.2vw;
   border-left-width: auto;
   transition: 0.8s;
 }
@@ -624,12 +624,20 @@ textarea {
   justify-content: space-between;
 }
 
+.OuderAvondHeader2 {
+  color: white;
+  font-size: 5vw;
+  border-bottom: white;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+
 .VideoSpaceVideo {
-  width: 600px;
-  height: 500px;
+  width: 45vw;
+  height: 35vw;
   display: flex;
-  justify-content: flex-start;
-  margin-left: 100px;
+  padding-bottom: 0.4vw;
+  margin-left: 19%;
 }
 .VideoSpaceImg {
   width: 200px;
@@ -658,6 +666,7 @@ textarea {
     display: flex;
     flex-direction: column;
   }
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -665,4 +674,10 @@ textarea {
     display: flex;
     flex-direction: column;
   }
+  .HomePaginaText {
+    font-size: 2vw;
+    letter-spacing: 0.1vw;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+  } 
 }
