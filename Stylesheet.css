@@ -45,6 +45,12 @@ body {
     position: relative;
     margin: 0; padding: 0;
   }
+
+a {
+  text-decoration-line: none;
+  color: lightskyblue;
+}
+
 /* The subnavigation menu */
 .subnav {
   float: left;
