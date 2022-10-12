@@ -54,11 +54,11 @@ body {
 
 /* Subnav button */
 .subnav .subnavbtn {
-  font-size: 16px;
+  font-size: 1.4vw;
   border: none;
   outline: none;
   color: white;
-  padding: 14px 16px;
+  padding: 1vw 2vw;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
@@ -177,11 +177,11 @@ body {
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 1% 1%;
+    padding: 1vw 2vw;
     padding-left: 2%;
     padding-right: 2%;
     text-decoration: none;
-    font-size: 1.2vw;
+    font-size: 1.4vw;
     transition: 0.5s;
   }
   
@@ -644,14 +644,20 @@ textarea {
   font-size: 150px;
 }
 
-@media and (max-width: 576px;) {
+.DropdownImg {
+  width: 1.5vw;
+  height: 1.5vw;
+  padding: 0;
+}
+
+@media only screen and (max-width: 576px) {
   nav {
     display: flex;
     flex-direction: column;
   }
 }
 
-@media and (max-width: 768px;) {
+@media only screen and (max-width: 768px) {
   nav {
     display: flex;
     flex-direction: column;
