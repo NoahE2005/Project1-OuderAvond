@@ -54,11 +54,11 @@ body {
 
 /* Subnav button */
 .subnav .subnavbtn {
-  font-size: 16px;
+  font-size: 1.4vw;
   border: none;
   outline: none;
   color: white;
-  padding: 14px 16px;
+  padding: 0.75vw 1.75vw;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
@@ -177,11 +177,11 @@ body {
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 1% 1%;
+    padding: 0.75vw 1.75vw;
     padding-left: 2%;
     padding-right: 2%;
     text-decoration: none;
-    font-size: 1.2vw;
+    font-size: 1.4vw;
     transition: 0.5s;
   }
   
@@ -384,7 +384,7 @@ body {
 }
 .tab + label {
   box-shadow: 0 -1px 0 #eee inset;
-  border-radius: 6px 6px 0 0;
+  border-radius: 1vw 1vw 0 0;
   cursor: pointer;
   display: block;
   text-decoration: none;
@@ -401,9 +401,9 @@ body {
   text-align: center;
   -webkit-transition: 0.3s background-color ease, 0.3s box-shadow ease;
   transition: 0.3s background-color ease, 0.3s box-shadow ease;
-  height: 50px;
+  height: 3vw;
   box-sizing: border-box;
-  padding: 15px;
+  padding: 0.25vw;
   top:50%;
   transition: 0.8s;
 }
@@ -644,14 +644,20 @@ textarea {
   font-size: 150px;
 }
 
-@media and (max-width: 576px;) {
+.DropdownImg {
+  width: 1.5vw;
+  height: 1.5vw;
+  padding: 0;
+}
+
+@media only screen and (max-width: 576px) {
   nav {
     display: flex;
     flex-direction: column;
   }
 }
 
-@media and (max-width: 768px;) {
+@media only screen and (max-width: 768px) {
   nav {
     display: flex;
     flex-direction: column;
