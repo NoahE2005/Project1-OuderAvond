@@ -76,7 +76,8 @@ a {
 
 .subnavbtn {
   display: flex;
-  align-self: center;
+  align-self: top;
+  margin: 0;
 }
 
 /* Add a red background color to navigation links on hover */
@@ -96,6 +97,7 @@ a {
   width: 14.3vw;
   margin-left: 81.5vw;
   margin-right: 25vw;
+  margin-top: 3.4vw;
 }
 
 .subnav-content2 {
@@ -109,6 +111,7 @@ a {
   width: 12vw;
   margin-left: 18.8vw;
   margin-right: 85vw;
+  margin-top: 3.4vw;
 }
 
 .subnav-content3 {
@@ -122,6 +125,7 @@ a {
   margin-right: 85vw;
   height: 3.4vw;
   width: 12vw;
+  margin-top: 3.4vw;
 }
 
 /* Style the subnav links */
@@ -221,6 +225,28 @@ a {
   }
 .topnav {
     width: 100%;
+}
+
+/*Gefixt subnav*/
+.subnav a{
+  font-size: 1.4vw;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 0.75vw 1.75vw;
+  background-color: inherit;
+  font-family: inherit;
+  letter-spacing: 0.05vw;
+  position: relative;
+  display: inline-block;
+  transition: 0.5s;
+}
+.subnav a:hover {
+  background-color: rgb(14, 94, 14);
+  color: yellow;
+  transition: 0.5s;
+  padding-left: 2vw;
+  padding-right: 2vw;
 }
 
 #slider {
