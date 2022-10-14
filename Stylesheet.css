@@ -569,9 +569,9 @@ td {
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
-  float: none;  
-  height: 5vh;
-  padding: 0 10px;
+  float: top;  
+  height: 15vh;
+
 }
 .rate:not(:checked) > input {
   position:absolute;
@@ -621,9 +621,11 @@ textarea {
 }
 #complimenten {
   text-align: center;
+  width: auto;
 }
 #klachten {
   text-align: center;
+  width: auto;
 }
 .ReviewSection {
   margin-top: 5vh;
