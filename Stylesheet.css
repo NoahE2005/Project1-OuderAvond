@@ -467,7 +467,9 @@ a {
 }
 
 .LocatiegidsOpleidingen {
-  height: 3vh;
+  height: 6vh;
+  padding-top: 1vh;
+  padding-bottom: 40vh;
   padding-left: 2vw;
 }
 
