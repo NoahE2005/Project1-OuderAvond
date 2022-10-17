@@ -543,6 +543,11 @@ td {
   color: black;
 }
 
+.BSASection {
+  padding-left: 10em;
+  padding-right: 10em;
+}
+
 .OverOnsImage {
   border-style: solid;
   border-color: #296247;
