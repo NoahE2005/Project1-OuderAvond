@@ -724,6 +724,10 @@ body1 {
   font-size: 1vw;
 }
 
+nav, .topnav {
+  position: sticky;
+}
+
 @media only screen and (max-width: 576px) {
   nav {
     display: flex;
