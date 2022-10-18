@@ -724,7 +724,7 @@ body1 {
   font-size: 1vw;
 }
 
-nav, .topnav {
+nav {
   position: sticky;
   top: 0px;
 }
