@@ -752,6 +752,10 @@ body1 {
   font-size: 1vw;
 }
 
+.LoginText {
+  font-size: 50px;
+}
+
 nav {
   position: sticky;
   top: 0px;
