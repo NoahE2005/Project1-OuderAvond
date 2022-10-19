@@ -177,8 +177,11 @@ a {
 }
 
 .TCRImage:hover {
-  border-right-width: 87.2vw;
+  border-right-width: 1vw;
   border-left-width: auto;
+  width: auto;
+  height: 2.2vw;
+  border-width: 1.5vw;
   transition: 0.8s;
 }
 
