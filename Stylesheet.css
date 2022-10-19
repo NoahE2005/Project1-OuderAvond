@@ -93,7 +93,7 @@ a {
   background-color: #333;
   z-index: 1;
   text-align: center;
-  height: 3.4vw;
+  height: 7vw;
   width: 14.3vw;
   margin-left: 81.5vw;
   margin-right: 25vw;
@@ -107,7 +107,7 @@ a {
   background-color: #333;
   z-index: 1;
   text-align: center;
-  height: 3.4vw;
+  height: 7vw;
   width: 12vw;
   margin-left: 18.8vw;
   margin-right: 85vw;
@@ -123,7 +123,7 @@ a {
   text-align: center;
   margin-left: 7.7vw;
   margin-right: 85vw;
-  height: 3.4vw;
+  height: 7vw;
   width: 12vw;
   margin-top: 3.4vw;
 }
