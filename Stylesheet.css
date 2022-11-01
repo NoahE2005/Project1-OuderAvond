@@ -484,11 +484,12 @@ a {
   visibility: hidden;
 }
 
-.tab-wrap label:hover {
+.tab-wrap label:hover{
   background-color: rgb(26, 173, 26);
   padding-left: 1.5vw;
   padding-right: 1.5vw;
   transition: 0.8s;
+  cursor: pointer;
 }
 
 .EduarteEnCanvas {
