@@ -478,18 +478,15 @@ a {
   padding-left: 3vw;
   padding-right: 3vw;
   transition: 0.8s;
-  z-index: 5;
 }
 .tab {
   visibility: hidden;
-  z-index: 5;
 }
 .tab-wrap label:hover {
   background-color: rgb(26, 173, 26);
   padding-left: 1.5vw;
   padding-right: 1.5vw;
   transition: 0.8s;
-  z-index: 5;
 }
 .EduarteEnCanvas {
   color: black;
