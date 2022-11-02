@@ -59,6 +59,7 @@ a {
   padding: 0;
   height: 3.4vw;
   width: auto;
+  z-index: 2;
 }
 
 /* Subnav button */
@@ -73,12 +74,14 @@ a {
   letter-spacing: 0.05vw;
   position: relative;
   display: inline-block;
+  z-index: 2;
 }
 
 .subnavbtn {
   display: flex;
   align-self: top;
   margin: 0;
+  z-index: 2;
 }
 
 /* Add a red background color to navigation links on hover */
@@ -244,6 +247,7 @@ a {
   position: relative;
   display: inline-block;
   transition: 0.5s;
+  z-index: 2;
 }
 .subnav a:hover {
   background-color: rgb(14, 94, 14);
@@ -251,6 +255,7 @@ a {
   transition: 0.5s;
   padding-left: 2vw;
   padding-right: 2vw;
+  z-index: 2;
 }
 
 #slider {
@@ -314,7 +319,7 @@ a {
   background-color: #fff;
   margin: 4vw 0;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  z-index: -1;
+  z-index: 1;
 }
 .tab:checked:nth-of-type(1) ~ .tab__content:nth-of-type(1) {
   opacity: 1;
